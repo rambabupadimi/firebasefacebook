@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/posts_layout"
+    android:orientation="vertical"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp"
+        android:padding="12dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postMessage"
+            android:text="Message"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postCreatedTime"
+            android:text="12-12-2017"
+            android:textColor="#ddd"
+            android:gravity="right"
+            android:layout_marginTop="4dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postId"
+            android:visibility="gone"
+            android:text="id"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewCommentsLayout"
+            android:orientation="vertical"
+            android:paddingTop="6dp"
+            android:paddingBottom="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Comments"
+                android:gravity="right"
+                android:layout_marginTop="4dp"
+                android:id="@+id/viewCommentsTextview"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/viewCommentsRecyclerView"></android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#ddd"></View>
+</LinearLayout>

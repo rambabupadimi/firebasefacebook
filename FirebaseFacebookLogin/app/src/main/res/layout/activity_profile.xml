@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.firebasefacebooklogin.ProfileActivity"
+    android:background="#fff">
+<android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:id="@+id/toolbar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fb With Firebase"
+        android:textColor="#fff"/>
+</android.support.v7.widget.Toolbar>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_below="@+id/toolbar"
+      android:gravity="center">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageview"
+        android:src="@drawable/fbicon"
+/>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Name"
+        android:gravity="center_horizontal"
+    android:id="@+id/name"
+        android:layout_marginTop="24dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Click icon to show posts you liked.."
+    android:textStyle="italic"
+    android:textColor="#ddd"
+    android:layout_marginTop="12dp"
+    android:gravity="center_horizontal"/>
+  </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/logout"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

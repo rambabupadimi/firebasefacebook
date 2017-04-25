@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "541616125480",
+    "firebase_url": "https://register-73a19.firebaseio.com",
+    "project_id": "register-73a19",
+    "storage_bucket": "register-73a19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541616125480:android:dbf8f21f97fa5bf7",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.firebasefacebooklogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541616125480-vuhdk0405qviasdlpn6omnlf26h1pdod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqT77Mfwo-qZ28-7YQM_mD0z9jSZCykjI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
